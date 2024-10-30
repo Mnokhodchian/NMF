@@ -1,0 +1,9 @@
+Non-Negative Matrix Factorization (NMF) has become increasingly popular for its efficacy in clustering and feature selection tasks, particularly in managing high-dimensional data by reducing dimensionality and providing meaningful semantic representations.
+
+In our research titled "Non-Negative Matrix Factorization via Subspace Graph Regularization and Riemannian-Based Trust Region Algorithm," we introduce a novel approach that utilizes Stiefel manifold optimization to enhance latent feature extraction. The learned features are demonstrated to be highly informative for clustering tasks.
+
+Our method employs a spectral decomposition criterion to obtain a low-dimensional embedding that captures the intrinsic geometric structure of the data. We also present a solution to the Stiefel manifold problem and utilize a Riemannian-based trust region algorithm to optimize the loss function. The result of this optimization process is a new representation of the data in a transformed space, which serves as input for the NMF algorithm.
+
+Additionally, the paper incorporates a novel subspace graph regularization term that considers high-order geometric information, along with a sparsity term for the factor matrices. These enhancements significantly improve the discriminative capabilities of the learning process.
+
+To demonstrate the advantages of our method compared to traditional approaches, we developed a Python implementation that measures three performance metrics: Purity, Normalized Mutual Information (NMI), and Rand Index (RI) for the datasets processed by the proposed method, allowing for a comparative analysis with existing methods. Furthermore, we also implemented the method presented in the article "Low-Rank Nonnegative Matrix Factorization on Stiefel Manifold," referred to as the LNMFS method, to facilitate comparative evaluation of performance metrics.
